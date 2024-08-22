@@ -7,6 +7,7 @@ void main() async {
   await login();
 
 
+<<<<<<< HEAD
 }
 
 
@@ -109,4 +110,8 @@ Future<void> showExpenses(int userId) async {
       print("Invalid option. Please choose 1, 2, 3, 4, 5 or 6.");
     }
   } while (option != 3); // The loop will continue until option 3 is selected
+=======
+void main() {
+  
+>>>>>>> 88ac7e700dedbb0167eaf93fed8ae021a6c786e6
 }
