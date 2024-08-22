@@ -106,7 +106,7 @@ Future<void> showExpenses(int userId) async {
     } else if (option == 3) {
       print("------ Bye --------");
     } else {
-      print("Invalid option. Please choose 1, 2, or 3.");
+      print("Invalid option. Please choose 1, 2, 3, 4, 5 or 6.");
     }
   } while (option != 3); // The loop will continue until option 3 is selected
 }
